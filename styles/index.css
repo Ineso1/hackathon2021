@@ -180,6 +180,38 @@ header.sticky ul li a {
     border-radius: 6px;
 }
 
+#fet_text_3 {
+    position: relative;
+    width: 20%;
+    margin-left: 20%;
+    font-size: 15px;
+    height: 15%;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: linear-gradient(to right bottom, #be41dd, #d060e2, #df7de8, #ed99ee, #f9b4f5);
+    padding: 15px; 
+    border: 2px; 
+    box-shadow: 2px 2px 5px #999;
+    border-radius: 6px; 
+}
+
+#fet_text_4 {
+    position: relative;
+    width: 20%;
+    margin-left: 60%;
+    font-size: 15px;
+    height: 15%;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: linear-gradient(to right bottom, #ed8dec, #abb1ff, #48ceff, #00e3ff, #46f0eb);
+    padding: 15px; 
+    border: 2px; 
+    box-shadow: 2px 2px 5px #999;
+    border-radius: 6px;
+}
+
 #fet_tittle {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
