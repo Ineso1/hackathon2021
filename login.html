@@ -1,65 +1,72 @@
 <html>
+
 <head>
-    <meta charset="iso-8559-1"/>
-	<meta name="description" content="Equipo de robotica ENMSS"/>
-	<meta name="keywords" content="Robotica prepa oficial de salamanca"/>
+    <meta charset="iso-8559-1" />
+    <meta name="description" content="Equipo de robotica ENMSS" />
+    <meta name="keywords" content="Robotica prepa oficial de salamanca" />
 
     <title> Login </title>
     <link rel="icon" href="../hackathon2021/banner/beehigh-n-png.png">
-    <link rel="stylesheet" href="../hackathon2021/styles/login.css"/>
+    <link rel="stylesheet" href="../hackathon2021/styles/login.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <a href="../hackathon2021/index.html" class="logo">BeeHigh</a>
         <ul>
             <li><a href="#">Inicio de sesión</a></li>
-            <li><a href="../hackathon2021/about.html">Acerca de</a></li>  
+            <li><a href="../hackathon2021/about.html">Acerca de</a></li>
         </ul>
     </header>
     <section class="banner">
         <div class="form">
             <div class="form__box">
-            <div class="form__left">
-                <div class="form__padding"><img class="form__image" src="../hackathon2021/banner/beehigh-original (1).png"/></div>
-            </div>
-            <div class="form__right">
-                <div class="form__padding-right">
-                <form>
-                    <h1 class="form__title">Inicio de sesión</h1>
-                    <input class="form__email" type="text" placeholder="Usuario"/>
-                    <input class="form__password" type="text" placeholder="Contraseña"/>
-                    <a class="botrgb" href="../paginas/inicio.html" data-title="¡Vamos!"><span>Login</span></a>
+                <div class="form__left">
+                    <div class="form__padding"><img class="form__image"
+                            src="../hackathon2021/banner/beehigh-original (1).png" /></div>
                 </div>
-            </div>
+                <div class="form__right">
+                    <div class="form__padding-right">
+                        <form>
+                            <h1 class="form__title">Inicio de sesión</h1>
+                            <input class="form__email" type="text" placeholder="Usuario" />
+                            <input class="form__password" type="text" placeholder="Contraseña" />
+                            <a class="botrgb" href="../paginas/inicio.html" data-title="¡Vamos!"><span>Login</span></a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-        <script type="text/javascript">
-            window.addEventListener("scroll", function(){
-                var header = document.querySelector("header");
-                header.classList.toggle("sticky", window.scrollY > 10);
-            })
-        </script>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 10);
+        })
+    </script>
     <div id="progressbar"></div>
     <div id="scrollPath"></div>
 
     <script type="text/javascript">
         let progress = document.getElementById('progressbar');
-        let totalHeight =document.body.scrollHeight - window.innerHeight;
-        window.onscroll = function(){
-            let progressHeight = (window.pageYOffset / totalHeight)*100;
+        let totalHeight = document.body.scrollHeight - window.innerHeight;
+        window.onscroll = function () {
+            let progressHeight = (window.pageYOffset / totalHeight) * 100;
             progress.style.height = progressHeight + "%";
         }
     </script>
     <footer>
         <nav>
             <ul id="pie_pagina">
-                <li><a href="https://www.facebook.com/BeeHighTeam/"><button class="referencia">Facebook</button></a></li>
+                <li><a href="https://www.facebook.com/BeeHighTeam/"><button class="referencia">Facebook</button></a>
+                </li>
                 <li><a href="https://discord.com/invite/BtW5AWQNaG"><button class="referencia">Discord</button></a></li>
-                <li><a href="https://www.instagram.com/beehighteam/"><button class="referencia">Instagram</button></a></li>
-                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSet34yJOFEFd9GxA6xJHwVJlstIqGfpC0JOLMpC5xwyyVXQ6g/closedform"><button class="referencia">Unirse</button></a></li>
+                <li><a href="https://www.instagram.com/beehighteam/"><button class="referencia">Instagram</button></a>
+                </li>
+                <li><a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSet34yJOFEFd9GxA6xJHwVJlstIqGfpC0JOLMpC5xwyyVXQ6g/closedform"><button
+                            class="referencia">Unirse</button></a></li>
             </ul>
         </nav>
     </footer>
@@ -67,4 +74,5 @@
         <p>Todos los derechos reservados. BeeHigh © 2021</p>
     </div>
 </body>
+
 </html>
